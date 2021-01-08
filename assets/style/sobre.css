@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+
+:root{
+    --text-main-color: #111111;
+    --text-color: #000;
+    --container-principal-background-color: #FBDFDB ;
+    --footer-background-color: #eee;
+    --footer-text-color: #999;
+    --text-autor: #777;
+    --text-color: #444;
+}
+
+
+body{  
+    width: 100vw;
+}
+
+
+/* estilizando o header */
+.menu{
+    margin: 0 auto;
+    width: 75vw;
+    margin-top: 1.5vw;
+    margin-bottom: 2.5vw;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+
+/* div atras do Foodfy */
+.texto-principal{
+    width: 15vw;
+}
+
+
+/* estilizando o Foodfy */
+.texto-principal h3 a{
+    font-size: 1.8vw;
+    font-weight: 300;
+    color: var(--text-main-color);
+    letter-spacing: 0.1vw;
+}
+
+/* estilizando o menu = Sobre */
+.bold{
+    color: var(--text-main-color);
+    margin-right: 2.5vw;
+    font-size: 1.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/* estilizando o menu = Receitas */
+.menu-alternativo a{
+    color: var(--text-main-color);
+    margin-right: 2.5vw;
+    font-size: 1.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/* container sobre o site */
+.conteudo-principal{
+    margin: 0 auto;
+    width: 75vw;
+}
+
+
+/* classe do titulo princial */
+.sobre{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: var(--text-main-color);
+    font-size: 1.9vw;
+    margin-bottom: 1.5vw;
+}
+
+
+/* estilização dos textos */
+.text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: var(--text-color);
+    font-size: 1.4vw;
+    margin-bottom: 1.5vw;
+}
+
+
+/* estiliazanddo os 2 titulos restantes */
+.titulos{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: var(--text-main-color);
+    font-size: 1.6vw;
+    margin-bottom: 1.5vw;
+}
+
+
+/* footer */
+footer{
+    width: 100vw;
+    height: 10.3vh;
+    background-color: var(--footer-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* texto do footer */
+footer h5{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: var(--footer-text-color);
+    font-size: 1.12vw;
+}

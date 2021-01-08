@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+
+:root{
+    --text-main-color: #111111;
+    --text-color: #000;
+    --container-principal-background-color: #FBDFDB ;
+    --footer-background-color: #eee;
+    --footer-text-color: #999;
+    --text-autor: #777;
+    --text-color-two: #444;
+    --background-white: #fff;
+}
+
+
+body{  
+    width: 100vw;
+}
+
+
+/* estilizando o header */
+.menu{
+    margin: 0 auto;
+    width: 75vw;
+    margin-top: 1.5vw;
+    margin-bottom: 2.5vw;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    position: relative;
+}
+
+
+/* div atras do Foodfy */
+.texto-principal{
+    width: 15vw;
+}
+
+
+/* estilizando o Foodfy */
+.texto-principal h3 a{
+    font-size: 1.8vw;
+    font-weight: 300;
+    color: var(--text-main-color);
+    letter-spacing: 0.1vw;
+}
+
+/* estilizando o menu = Sobre */
+.menu-alternativo a{
+    color: var(--text-main-color);
+    margin-right: 2.5vw;
+    font-size: 1.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* estilizando o menu = Receitas */
+.bold{
+    color: var(--text-main-color);
+    margin-right: 2.5vw;
+    font-size: 1.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/* modalFull */
+.modalFull{
+    background-color: var(--background-white);
+    margin: 0 auto;
+    width: 75vw;
+}
+
+/* estilizando a classe = container-principal  */
+.container-principal{
+    margin: 0 auto;
+    width: 75vw;
+    height: 61.30vh;
+    border-radius: 2.41vw;
+    margin-bottom: 1.5vw;
+}
+
+.container-principal img{
+    width: 75vw;
+    height: 61.30vh;
+    border-radius: 2.41vw;
+}
+
+.titulo-modal{
+    margin: 0 auto;
+    text-align: center;
+    color: var(--text-main-color);
+    font-size: 2.8vw;
+    margin-top: 2.5vh;
+    font-family: 'Roboto';
+}
+
+.autor-modal{
+    margin: 0 auto;
+    text-align: center;
+    color: var(--text-autor);
+    font-size: 1.6vw;
+    margin-top: 0.4vh;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.ingrediente-and-preparo{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.5vh;
+}
+
+.sobre-a-receita{
+    width: 75vw;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 2.5vh;
+}
+
+.sobre-a-receita h3{
+    color: var(--text-main-color);
+    font-size: 1.9vw;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.sobre-a-receita h5{
+    color: var(--footer-text-color);
+    font-size: 0.9vw;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-left: 1vw;
+}
+
+.instrucoes{
+    width: 75vw;
+    margin-bottom: 3.5vh;
+}
+
+.instrucoes li{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.4vw;
+    color: var(--text-color-two);
+    line-height: 2.2vw;
+}
+
+.margin-top{
+    margin-top: 3.5vh;
+}
+
+.instrucoes p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.4vw;
+    color: var(--text-color-two);
+    line-height: 3.3vh;
+}
+
+.footer{
+    width: 100vw;
+    height: 10.3vh;
+    background-color: var(--footer-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* texto do footer */
+.footer h5{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: var(--footer-text-color);
+    font-size: 1.12vw;
+}

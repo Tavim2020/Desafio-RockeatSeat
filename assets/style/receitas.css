@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+
+:root{
+    --text-main-color: #111111;
+    --text-color: #000;
+    --container-principal-background-color: #FBDFDB ;
+    --footer-background-color: #eee;
+    --footer-text-color: #999;
+    --text-autor: #777;
+    --text-color-two: #444;
+    --background-white: #fff;
+}
+
+
+body{  
+    width: 100vw;
+}
+
+
+/* estilizando o header */
+.menu{
+    margin: 0 auto;
+    width: 75vw;
+    margin-top: 1.5vw;
+    margin-bottom: 2.5vw;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    position: relative;
+}
+
+
+/* div atras do Foodfy */
+.texto-principal{
+    width: 15vw;
+}
+
+
+/* estilizando o Foodfy */
+.texto-principal h3 a{
+    font-size: 1.8vw;
+    font-weight: 300;
+    color: var(--text-main-color);
+    letter-spacing: 0.1vw;
+}
+
+/* estilizando o menu = Sobre */
+.menu-alternativo a{
+    color: var(--text-main-color);
+    margin-right: 2.5vw;
+    font-size: 1.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* estilizando o menu = Receitas */
+.bold{
+    color: var(--text-main-color);
+    margin-right: 2.5vw;
+    font-size: 1.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+
+/* receitas*/
+.receitas{
+    margin: 0 auto;
+    width: 75vw;
+    margin-bottom: 1.5vw;
+    position: relative;
+}
+
+
+/* container que abranje todas as receitas */
+.receitas-mais-acessadas{
+    display: grid;
+    grid-template-areas: 
+        "1c 2c 3c"
+        "4c 5c 6c"
+        "7c 8c 9c"
+        "10c 11c 12c";
+}
+
+
+/* container das 6 receitas */
+.container-receitas{
+    margin: 0 1vw 1vw 0;
+}
+
+
+/* estilizando a imagem das receitas */
+.container-receitas img{
+    width: 24.1vw;
+    height: 24.4vh;
+    border-radius: 1.2vw;
+    margin-bottom: 0.5vw;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+/* nome da receita */
+.nome-receita{
+    width: 85%;
+    font-size: 1.4vw;
+    margin-bottom: 0.3vw;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: var(--text-main-color);
+    cursor: pointer;
+}
+
+
+/* nome do autor */
+.autor{
+    width: 50%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: var(--text-autor);
+    font-size: 1.12vw;
+    cursor: pointer;
+}
+
+
+
+/* certificando o posicionamento de cada elemento */
+.container-one{
+    grid-area: 1c;
+}
+
+.container-two{
+    grid-area: 2c;
+}
+
+.container-tree{
+    grid-area: 3c;
+}
+
+.container-four{
+    grid-area: 4c;
+}
+
+.container-five{
+    grid-area: 5c;
+}
+
+.container-six{
+    grid-area: 6c;
+}
+
+.container-seven{
+    grid-area: 7c;
+}
+
+.container-eight{
+    grid-area: 8c;
+}
+
+.container-nine{
+    grid-area: 9c;
+}
+
+.container-ten{
+    grid-area: 10c;
+}
+
+.container-eleven{
+    grid-area: 11c;
+}
+
+.container-twelve{
+    grid-area: 12c;
+}
+
+
+.modal{
+    margin: 0 auto;
+    width: 53.1vw;
+    height: 69.1vh;
+    background-color: var(--background-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:40%;
+    left: 23%;
+    border-radius: 1.2vw;
+}
+
+.modal img{
+    width: 48.3vw;
+    height: 33.5vh;
+    border-radius: 1.2vw;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+}
+
+.nomeDoTitulo{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: var(--text-main-color);
+    font-size: 1.9vw;
+    margin-bottom: 0.4vw;
+}
+
+.TextoDoAutor{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: var(--text-autor);
+    font-size: 1.4vw;
+    margin-bottom: 8vh;
+}
+
+.modal button{
+    font-size: 1.2vw;
+    padding: 1vw;
+    border-radius: 0.8vw;
+    font-weight: 700;
+    background: #FC2F00;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.opacity{
+    opacity: 1 !important;
+}
+
+
+/* footer */
+.footer{
+    width: 100vw;
+    height: 10.3vh;
+    background-color: var(--footer-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* texto do footer */
+.footer h5{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: var(--footer-text-color);
+    font-size: 1.12vw;
+}
+
+.background-white{
+    width: 100vw;
+    background-color: var(--background-white);
+    position: absolute;
+    top:0;
+}
+
+
